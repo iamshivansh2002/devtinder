@@ -8,12 +8,13 @@ profileRouter-----
 -PATCH /profile/edit
 -PATCH /profile/password
 
-cooncectionRequestRouter-------
+concectionRequestRouter-------
 -POST /request/send/status/:userID
+-POST /request/review/status/:userID
 
 userRaouter------------
+-GET /user/requests/received
 -GET /user/connection
--GET /user/requests
 -GET /user/feed 
 
 Status: ignore, interested, accepted, rejected
